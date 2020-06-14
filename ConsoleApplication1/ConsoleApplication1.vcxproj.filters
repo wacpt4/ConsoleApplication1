@@ -30,6 +30,15 @@
     <ClCompile Include="Struct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CuDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="funVector.h">
@@ -45,6 +54,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CuDraw.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

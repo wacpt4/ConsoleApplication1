@@ -151,6 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CDirDraw.cpp" />
+    <ClCompile Include="CDraw.cpp" />
+    <ClCompile Include="CuDraw.cpp" />
     <ClCompile Include="funVector.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Struct.cpp" />
@@ -158,6 +161,9 @@
     <ClCompile Include="Vector1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CDirDraw.h" />
+    <ClInclude Include="CDraw.h" />
+    <ClInclude Include="CuDraw.h" />
     <ClInclude Include="funVector.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Struct.h" />
