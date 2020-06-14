@@ -90,7 +90,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +151,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="funVector.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Struct.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vector1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funVector.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
